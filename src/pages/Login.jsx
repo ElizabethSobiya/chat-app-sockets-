@@ -51,7 +51,6 @@ const handleSubmit = async (e) => {
 }
 
 
-
 const handleValidation = () => {
     const {username, password } =  values;
 
@@ -92,7 +91,8 @@ setValues({...values,[e.target.name]: e.target.value})
 }
 
 
-const FormContainer = styled.div`
+const FormContainer = styled.div
+`
 height: 100vh;
 width : 100vw;
 display: flex;
